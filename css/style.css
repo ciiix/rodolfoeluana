@@ -222,3 +222,35 @@ footer a {
   font-size: 12px;
   text-decoration: none;
 }
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (max-width: 767px) {
+  #cabecalho {
+    width: 70%;
+    background-size: 100%;
+  }
+
+  #capa {
+    height: 70%;
+    background-size: 170%;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  #padrinhos table {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .foto-1 {
+    background-position: 13% -70px;
+  }
+
+  .cha-endereco {
+    width: 80%;
+  }
+}
